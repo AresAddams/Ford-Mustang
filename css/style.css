@@ -1,0 +1,70 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: aliceblue;
+    margin: 0;
+    
+    
+}
+.mustang{
+    color: red;
+    font-weight: bold;
+    
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+
+}
+.half-width{
+    width: 50%;
+    padding: 100px;
+}
+.half-width img{
+    width: 100%;
+}
+.price-button{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px 10px;
+    background-image: linear-gradient(red, rgb(72, 15, 15));
+    
+}
+.top-banner{
+    background-image:url(/asset/developer-portfolio-master/images/top-banner.png); ;
+    background-repeat: no-repeat;
+}
+.part2{
+    background-image: url(../asset/developer-portfolio-master/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right ;
+}
+h1{
+    font-size: 30px;
+}
+author{
+    color: olivedrab;
+}
+.exp{
+    width: 40%;
+    box-shadow: 10px 10px 40px black;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;   
+}
+.part3{
+    background-image: url(../asset/developer-portfolio-master/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#exp1{
+    border-left: 7px solid tomato;
+}
+#exp2{
+    border-left: 7px solid blue;
+}
+.footer{
+   text-align: center;
+   color: gray;
+}
